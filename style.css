@@ -1,0 +1,76 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+.cl-logo {
+  max-width: 150px;
+  display: block;
+  margin: 0 auto;
+}
+h1 {
+  font-size: 60px;
+  text-align: center;
+  margin-bottom: 0;
+  text-transform: uppercase;
+  font-weight: 300;
+}
+h2 {
+  font-size: 20px;
+  text-align: center;
+  margin: 5px 0;
+  text-transform: uppercase;
+  font-weight: 200;
+}
+header {
+  border-bottom: 2px solid #59dde9;
+}
+.hero-image img {
+  width: 100%;
+  margin-top: 10px;
+}
+h3 {
+  color: #4EC1CC;
+  font-size: 30px;
+}
+.one-third {
+  text-align: center;
+  margin-top: 20px;
+}
+.work-images {
+  display: block;
+  width: 50%;
+  margin: 0 auto;
+}
+p {
+  text-transform: uppercase;
+  text-align: center;
+  color: #404040;
+  font-size: 28px;
+}
+a {
+  text-decoration: none;
+  color: #737373;
+  font-size: 14px;
+}
+
+@media screen and (min-width: 900px) {
+  .cl-logo {
+    display: inline-block;
+  }
+  .header-text {
+    display: inline-block;
+    float: right;
+  }
+  h1, h2 {
+    text-align: right;
+  }
+  .one-third {
+    width: 33%;
+    float: left;
+  }
+  .work-images {
+    width: 80%;
+  }
+}
